@@ -115,69 +115,69 @@ void rus(string str)
     string result = "";
     for (int i = 0; i < str.length(); i++)
     {
-        if (str[i] == 'à' || str[i] == 'À')
+        if (str[i] == 'Ð°' || str[i] == 'Ð')
             result += "01 ";
-        if (str[i] == 'á' || str[i] == 'Á')
+        if (str[i] == 'Ð±' || str[i] == 'Ð‘')
             result += "1000 ";
-        if (str[i] == 'â' || str[i] == 'Â')
+        if (str[i] == 'Ð²' || str[i] == 'Ð’')
             result += "011 ";
-        if (str[i] == 'ã' || str[i] == 'Ã')
+        if (str[i] == 'Ð³' || str[i] == 'Ð“')
             result += "110 ";
-        if (str[i] == 'ä' || str[i] == 'Ä')
+        if (str[i] == 'Ð´' || str[i] == 'Ð”')
             result += "100 ";
-        if (str[i] == 'å' || str[i] == '¸' || str[i] == 'Å' || str[i] == '¨')
+        if (str[i] == 'Ðµ' || str[i] == 'Ñ‘' || str[i] == 'Ð•' || str[i] == 'Ð')
             result += "0 ";
-        if (str[i] == 'æ' || str[i] == 'Æ')
+        if (str[i] == 'Ð¶' || str[i] == 'Ð–')
             result += "0001 ";
-        if (str[i] == 'ç' || str[i] == 'Ç')
+        if (str[i] == 'Ð·' || str[i] == 'Ð—')
             result += "1100 ";
-        if (str[i] == 'è' || str[i] == 'È')
+        if (str[i] == 'Ð¸' || str[i] == 'Ð˜')
             result += "00 ";
-        if (str[i] == 'é' || str[i] == 'É')
+        if (str[i] == 'Ð¹' || str[i] == 'Ð™')
             result += "0111 ";
-        if (str[i] == 'ê' || str[i] == 'Ê')
+        if (str[i] == 'Ðº' || str[i] == 'Ðš')
             result += "101 ";
-        if (str[i] == 'ë' || str[i] == 'Ë')
+        if (str[i] == 'Ð»' || str[i] == 'Ð›')
             result += "0100 ";
-        if (str[i] == 'ì' || str[i] == 'Ì')
+        if (str[i] == 'Ð¼' || str[i] == 'Ðœ')
             result += "11 ";
-        if (str[i] == 'í' || str[i] == 'Í')
+        if (str[i] == 'Ð½' || str[i] == 'Ð')
             result += "10 ";
-        if (str[i] == 'î' || str[i] == 'Î')
+        if (str[i] == 'Ð¾' || str[i] == 'Ðž')
             result += "111 ";
-        if (str[i] == 'ï' || str[i] == 'Ï')
+        if (str[i] == 'Ð¿' || str[i] == 'ÐŸ')
             result += "0110 ";
-        if (str[i] == 'ð' || str[i] == 'Ð')
+        if (str[i] == 'Ñ€' || str[i] == 'Ð ')
             result += "010 ";
-        if (str[i] == 'ñ' || str[i] == 'Ñ')
+        if (str[i] == 'Ñ' || str[i] == 'Ð¡')
             result += "000 ";
-        if (str[i] == 'ò' || str[i] == 'Ò')
+        if (str[i] == 'Ñ‚' || str[i] == 'Ð¢')
             result += "1 ";
-        if (str[i] == 'ó' || str[i] == 'Ó')
+        if (str[i] == 'Ñƒ' || str[i] == 'Ð£')
             result += "001 ";
-        if (str[i] == 'ô' || str[i] == 'Ô')
+        if (str[i] == 'Ñ„' || str[i] == 'Ð¤')
             result += "0010 ";
-        if (str[i] == 'õ' || str[i] == 'Õ')
+        if (str[i] == 'Ñ…' || str[i] == 'Ð¥')
             result += "0000 ";
-        if (str[i] == 'ö' || str[i] == 'Ö')
+        if (str[i] == 'Ñ†' || str[i] == 'Ð¦')
             result += "1010 ";
-        if (str[i] == '÷' || str[i] == '×')
+        if (str[i] == 'Ñ‡' || str[i] == 'Ð§')
             result += "1110 ";
-        if (str[i] == 'ø' || str[i] == 'Ø')
+        if (str[i] == 'Ñˆ' || str[i] == 'Ð¨')
             result += "1111 ";
-        if (str[i] == 'ù' || str[i] == 'Ù')
+        if (str[i] == 'Ñ‰' || str[i] == 'Ð©')
             result += "1101 ";
-        if (str[i] == 'ú' || str[i] == 'Ú')
+        if (str[i] == 'ÑŠ' || str[i] == 'Ðª')
             result += "011010 ";
-        if (str[i] == 'û' || str[i] == 'Û')
+        if (str[i] == 'Ñ‹' || str[i] == 'Ð«')
             result += "1011 ";
-        if (str[i] == 'ü' || str[i] == 'Ü')
+        if (str[i] == 'ÑŒ' || str[i] == 'Ð¬')
             result += "1001 ";
-        if (str[i] == 'ý' || str[i] == 'Ý')
+        if (str[i] == 'Ñ' || str[i] == 'Ð­')
             result += "00100 ";
-        if (str[i] == 'þ' || str[i] == 'Þ')
+        if (str[i] == 'ÑŽ' || str[i] == 'Ð®')
             result += "0011 ";
-        if (str[i] == 'ÿ' || str[i] == 'ß')
+        if (str[i] == 'Ñ' || str[i] == 'Ð¯')
             result += "0101 ";
         if (str[i] == '.')
             result += ". ";
@@ -398,69 +398,69 @@ void torus(string str)
         {
         l:
             if (temp2 == "01")
-                result += 'à';
+                result += 'Ð°';
             if (temp2 == "1000")
-                result += 'á';
+                result += 'Ð±';
             if (temp2 == "011")
-                result += 'â';
+                result += 'Ð²';
             if (temp2 == "110")
-                result += 'ã';
+                result += 'Ð³';
             if (temp2 == "100")
-                result += 'ä';
+                result += 'Ð´';
             if (temp2 == "0")
-                result += 'å';
+                result += 'Ðµ';
             if (temp2 == "0001")
-                result += 'æ';
+                result += 'Ð¶';
             if (temp2 == "1100")
-                result += 'ç';
+                result += 'Ð·';
             if (temp2 == "00")
-                result += 'è';
+                result += 'Ð¸';
             if (temp2 == "0111")
-                result += 'é';
+                result += 'Ð¹';
             if (temp2 == "101")
-                result += 'ê';
+                result += 'Ðº';
             if (temp2 == "0100")
-                result += 'ë';
+                result += 'Ð»';
             if (temp2 == "11")
-                result += 'ì';
+                result += 'Ð¼';
             if (temp2 == "10")
-                result += 'í';
+                result += 'Ð½';
             if (temp2 == "111")
-                result += 'î';
+                result += 'Ð¾';
             if (temp2 == "0110")
-                result += 'ï';
+                result += 'Ð¿';
             if (temp2 == "010")
-                result += 'ð';
+                result += 'Ñ€';
             if (temp2 == "000")
-                result += 'ñ';
+                result += 'Ñ';
             if (temp2 == "1")
-                result += 'ò';
+                result += 'Ñ‚';
             if (temp2 == "001")
-                result += 'ó';
+                result += 'Ñƒ';
             if (temp2 == "0010")
-                result += 'ô';
+                result += 'Ñ„';
             if (temp2 == "0000")
-                result += 'õ';
+                result += 'Ñ…';
             if (temp2 == "1010")
-                result += 'ö';
+                result += 'Ñ†';
             if (temp2 == "1110")
-                result += '÷';
+                result += 'Ñ‡';
             if (temp2 == "1111")
-                result += 'ø';
+                result += 'Ñˆ';
             if (temp2 == "1101")
-                result += 'ù';
+                result += 'Ñ‰';
             if (temp2 == "011010")
-                result += 'ú';
+                result += 'ÑŠ';
             if (temp2 == "1011")
-                result += 'û';
+                result += 'Ñ‹';
             if (temp2 == "1001")
-                result += 'ü';
+                result += 'ÑŒ';
             if (temp2 == "00100")
-                result += 'ý';
+                result += 'Ñ';
             if (temp2 == "0011")
-                result += 'þ';
+                result += 'ÑŽ';
             if (temp2 == "0101")
-                result += 'ÿ';
+                result += 'Ñ';
             if (temp2 == ".")
                 result += '.';
             if (temp2 == ",")
@@ -526,6 +526,7 @@ void torus(string str)
     }
     cout << "\nResult: " << result << endl;
 }
+
 int main()
 {
     SetConsoleCP(1251);
@@ -561,19 +562,19 @@ int main()
     }
     if (l == 'r')
     {
-        cout << "Ïåðåâåñòè ñ ðóññêîãî íà àçáóêó Ìîðçå(r) èëè ñ àçáóêè Ìîðçå íà Ðóññêèé(m): ";
+        cout << "ÐŸÐµÑ€ÐµÐ²ÐµÑÑ‚Ð¸ Ñ Ñ€ÑƒÑÑÐºÐ¾Ð³Ð¾ Ð½Ð° Ð°Ð·Ð±ÑƒÐºÑƒ ÐœÐ¾Ñ€Ð·Ðµ(r) Ð¸Ð»Ð¸ Ñ Ð°Ð·Ð±ÑƒÐºÐ¸ ÐœÐ¾Ñ€Ð·Ðµ Ð½Ð° Ð ÑƒÑÑÐºÐ¸Ð¹(m): ";
         cin >> l;
         cin.ignore(32767, '\n');
         if (l == 'r')
         {
-            cout << "Ââåäèòå òåêñò: ";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐºÑÑ‚: ";
             string str;
             getline(cin, str);
             rus(str);
         }
         if (l == 'm')
         {
-            cout << "Ââåäèòå òåêñò: ";
+            cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐºÑÑ‚: ";
             string str;
             getline(cin, str);
             torus(str);
